@@ -36,7 +36,7 @@ plt.show()
 
 # Zeitreihe einer Beispielstation
 example_station = df_pm2[station_col].iloc[0]
-df_example = df_pm2[df_pm2[station_col] == example_station]
+df_example = df_pm2[df_pm2[station_col] == example_station].sort_values(by=date_col)
 
 plt.figure(figsize=(14, 5))
 plt.plot(df_example[date_col], df_example[mean_col], marker='o', linestyle='-', linewidth=1)
