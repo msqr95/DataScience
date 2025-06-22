@@ -1,4 +1,4 @@
-# Lineare Regression + Einflussvisualisierung (final mit Achsen-Fix und Gitternetz)
+# Lineare Regression + Einflussvisualisierung
 
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
