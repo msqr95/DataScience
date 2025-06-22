@@ -1,4 +1,4 @@
-# OSM-Verarbeitung mit Overpass API via overpy (mit Debug-Ausgabe & Testlauf für 1 Station)
+# OSM-Verarbeitung mit Overpass API via overpy
 
 import overpy
 import pandas as pd
