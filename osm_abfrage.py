@@ -1,10 +1,10 @@
 # OSM-Verarbeitung mit Overpass API via overpy
 
-import overpy
-import pandas as pd
+import overpy #https://pypi.org/project/overpy/0.7/
+import pandas as pd #https://pandas.pydata.org/docs/whatsnew/v2.3.0.html
 import time
-from shapely.geometry import Point
-from IPython.display import display
+from shapely.geometry import Point #https://pypi.org/project/shapely/2.1.1/
+from IPython.display import display #https://pypi.org/project/ipython/9.3.0/
 
 # API-Client initialisieren
 api = overpy.Overpass()
