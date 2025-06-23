@@ -1,6 +1,6 @@
 ## Korrelationsanalyse der OSM-Merkmale
-import matplotlib.pyplot as plt
-import seaborn as sns
+import matplotlib.pyplot as plt #https://matplotlib.org/stable/users/prev_whats_new/whats_new_3.10.0.html
+import seaborn as sns #https://seaborn.pydata.org/whatsnew/v0.13.2.html
 
 # Korrelationsmatrix berechnen
 corr_matrix = X_scaled_df.corr()
