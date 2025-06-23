@@ -1,7 +1,7 @@
 # Bibliotheken
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import pandas as pd #https://pandas.pydata.org/docs/whatsnew/v2.3.0.html
+import matplotlib.pyplot as plt #https://matplotlib.org/stable/users/prev_whats_new/whats_new_3.10.0.html
+import seaborn as sns #https://seaborn.pydata.org/whatsnew/v0.13.2.html
 
 # Festlegen der Spaltennamen entsprechend deines DataFrames
 date_col = "Start Datetime"
