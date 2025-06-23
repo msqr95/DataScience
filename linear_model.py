@@ -1,12 +1,13 @@
 # Lineare Regression + Einflussvisualisierung
 
+#https://scikit-learn.org/stable/whats_new/v1.7.html
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt #https://matplotlib.org/stable/users/prev_whats_new/whats_new_3.10.0.html
+import pandas as pd #https://pandas.pydata.org/docs/whatsnew/v2.3.0.html
+import numpy as np #https://numpy.org/news/#numpy-230-released
 
 # 1. Keine Filterung mehr notwendig – df_merged enthält bereits nur PM2.5
 df_model = df_merged.copy()
