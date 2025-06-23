@@ -1,7 +1,7 @@
 # Random Forest Regressor (Vergleichsmodell)
 
-from sklearn.ensemble import RandomForestRegressor
-import seaborn as sns
+from sklearn.ensemble import RandomForestRegressor #https://scikit-learn.org/stable/whats_new/v1.7.html
+import seaborn as sns #https://seaborn.pydata.org/whatsnew/v0.13.2.html
 
 # 1. Modellinitialisierung und Training
 rf = RandomForestRegressor(n_estimators=100, random_state=42)
